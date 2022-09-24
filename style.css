@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logoAvet{
+    width: 100px;
+    margin-right: 30px;
+}
+.navBar{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+}
+.btnGroup{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btnGroup > a{
+    text-decoration: none;
+    background-color: #86b144 ;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 06px;
+    padding-bottom:06px;
+    border-radius:30px;
+}
+.btnGroup > a:hover{
+    background-color: #096439  ;
+    color: white;
+}
+/* .sectionOne{
+    background-color: #096439  ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+.firstBtn{
+    background-color: #096439  ;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.buttonLightGreen{
+    text-decoration: none;
+    background-color: #86b144 ;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius:30px;
+}
+.buttonLightGreen:hover{
+    background-color: white ;
+    color: #096439;
+}
+.sectionTwo{
+    background-color: #096439  ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap:80px;
+}
+.courses{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    padding-bottom:10px;
+}
+.imgSectionTwo{
+    width:120px;
+}
+.titleCourses{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.period{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #86b144;
+    gap: 20px;
+}
+.btnCourses{
+    text-decoration: none;
+    background-color: #86b144 ;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 06px;
+    padding-bottom:06px;
+    border-radius:30px;
+}
+.btnCourses:hover{
+    background-color: white ;
+    color: #096439;
+}
+.buttonWhite{
+    text-decoration: none;
+    background-color: white;
+    color: #096439;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius:30px;
+}
+.buttonWhite:hover{
+    background-color: #86b144 ;
+    color: white;
+}
+.secondtBtn{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.buttonLightGreenTwo{
+    text-decoration: none;
+    background-color: #86b144 ;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius:30px;
+}
+.buttonLightGreenTwo:hover{
+    background-color:#096439 ;
+    color: white;
+} 
+.sectionThree{
+    background-color: white  ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    gap:10px;
+}
+.appoitment{
+    text-align: center;
+    padding: 10px;
+    color: #87898d ;
+    padding-bottom:10px;
+}
+.imgSectionThree{
+    width:100px;
+}
