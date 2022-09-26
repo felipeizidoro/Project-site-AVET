@@ -32,13 +32,6 @@
     background-color: #096439  ;
     color: white;
 }
-/* .sectionOne{
-    background-color: #096439  ;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-} */
 .firstBtn{
     background-color: #096439  ;
     height: 100px;
@@ -46,6 +39,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .buttonLightGreen{
     text-decoration: none;
@@ -70,13 +65,13 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    gap:80px;
+    gap:60px;
+    padding-left: 40px;
 }
 .courses{
     text-align: center;
     padding: 10px;
     color: white;
-    padding-bottom:10px;
 }
 .imgSectionTwo{
     width:120px;
@@ -108,6 +103,10 @@
     background-color: white ;
     color: #096439;
 }
+#verticalLine{
+    height: 250px;
+    border-right: 2px solid white;
+}
 .buttonWhite{
     text-decoration: none;
     background-color: white;
@@ -135,6 +134,8 @@
     text-decoration: none;
     background-color: #86b144 ;
     color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
     font-size: 22px;
     font-weight: 600;
     padding-left: 45px;
@@ -166,4 +167,335 @@
 }
 .imgSectionThree{
     width:100px;
+}
+.exams{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.examsGroupOne{
+    background-color: #096439;
+    padding: 30px;
+    max-width: 674.5px;
+    min-width: 674.5px;
+    display: flex;
+    justify-content: center;
+}
+.examsGroupTwo{
+    background-color: #86b144;
+    padding: 30px;
+    max-width: 674.5px;
+    min-width: 674.5px;
+    display: flex;
+    justify-content: center;
+}
+.btnAppoitement{
+    padding-bottom: 25px;
+}
+.aboutAvet{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #e2e4e7;
+    padding:50px;
+    gap:30px;
+}
+#verticalLineTwo{
+    height: 270px;
+    border-right: 2px solid #86b144;
+}
+.imgAvet{
+    min-width: 400px;
+    max-width: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.logoImgAvet{
+    width:230px
+}
+.textAvet{
+    min-width: 600px;
+    max-width: 600px;
+    color: #096439;
+    padding:10px;
+    font-weight:500;
+}
+.containerPhotos{
+    min-height: 100vh;
+    display:grid;
+    gap:03px 03px;
+    margin: 20px;
+    grid-template-areas: 
+    "photo01 photo02 photo03 photo04"
+    "photo01 photo02 photo03 photo08"
+    "photo05 photo02 photo07 photo08"
+    "photo05 photo06 photo07 photo12"
+    "photo09 photo06 photo10 photo11"
+    "photo09 photo06 photo10 photo11"
+    ;
+}
+.item{
+    display: grid;
+}
+.photo01{
+    grid-area: photo01;
+    background-image: url(images/photos/photo01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo02{
+    grid-area: photo02;
+    background-image: url(images/photos/photo02.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo03{
+    grid-area: photo03;
+    background-image: url(images/photos/photo03.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo04{
+    grid-area: photo04;
+    background-image: url(images/photos/photo04.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo05{
+    grid-area: photo05;
+    background-image: url(images/photos/photo05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo06{
+    grid-area: photo06;
+    background-image: url(images/photos/photo06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo07{
+    grid-area: photo07;
+    background-image: url(images/photos/photo07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo08{
+    grid-area: photo08;
+    background-image: url(images/photos/photo08.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo09{
+    grid-area: photo09;
+    background-image: url(images/photos/photo09.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo10{
+    grid-area: photo10;
+    background-image: url(images/photos/photo10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo11{
+    grid-area: photo11;
+    background-image: url(images/photos/photo11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photo12{
+    grid-area: photo12;
+    background-image: url(images/photos/photo12.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btnBlog{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #86b144;
+}
+.buttonGreen{
+    text-decoration: none;
+    background-color: #096439 ;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius:30px;
+}
+.buttonGreen:hover{
+    background-color:white ;
+    color: #096439;
+} 
+.containerBlog{
+   background-color: #86b144; 
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 15px;
+   padding-bottom: 60px;
+   gap:30px
+}
+.blog{
+    width: 450px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    color:white;
+}
+.imgBlog{
+    width: 200px;
+}
+.textBlog{
+    width: 200px;
+}
+.textBlog > p{
+    font-size: 14px;
+}
+.buttonGreenSmall{
+    text-decoration: none;
+    background-color: #096439 ;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius:30px;
+}
+.buttonGreenSmall:hover{
+    background-color:white ;
+    color: #096439;
+}
+.contact{
+    padding-top: 20px;
+    text-align:center;
+}
+.textContact{
+    font-style: italic;
+    color:#096439;
+}
+.form{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.inputForm{
+    width: 500px;
+    padding:3px;
+    background-color: #d3d4d6;
+    border:transparent;
+}
+.inputMensage{
+    width: 1015px;
+    height: 100px;
+    padding:3px;
+    background-color: #d3d4d6;
+    border:transparent;
+}
+.buttonForm{
+    display:flex;
+    flex-wrap:wrap;
+    padding:15px;
+    width: 1193px;
+    justify-content: end;
+}
+.btnForm{
+    width: 90px;
+    padding: 5px;
+    font-weight:500;
+    border: transparent;
+    background-color:#86b144;
+    color:white;
+}
+.btnForm:hover{
+    background-color: #096439 ;
+}
+.address{
+    text-align: center;
+}
+.preFooter{
+    background-color: #096439 ;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content: center;
+    align-items:center;
+    padding: 15px;
+}
+.imgPreFooter{
+    width: 100px;  
+}
+.informationContact{
+   color:white; 
+   padding-top:20px;
+}
+.buttonPreFooter{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-left:20px;
+    gap:15px
+}
+.buttonFotterOne{
+    text-decoration: none;
+    background-color: #d28f00 ;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius:30px;
+}
+.buttonFotterOne:hover{
+    background-color: #87898d;
+    color:white;
+}
+.buttonFooterTwo{
+    text-decoration: none;
+    background-color: #b14444 ;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius:30px;
+}
+.buttonFooterTwo:hover{
+    background-color: #87898d;
+    color:white;
+}
+.footer{
+    background-color:#86b144;
+    color:white;
+    height: 30px;
+    padding:3px;
+    text-align: center;
 }
